@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header / Navigation */
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0e5e74;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+ .hero img{
+    border-radius: 20px;
+    /* float: left; */
+    /* margin-left: 10px; */
+    height: 100px;
+   width: 290px;}    
+.hero h1 { 
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Featured Courses */
+.courses {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.courses h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.course-card {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: right;
+    color: #f4f4f4;
+}
+
+.course-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.course-card a {
+    font-weight: bold;
+}
+
+/* News Section */
+.news {
+    background-color: #e9f7fd;
+    padding: 40px;
+    text-align: center;
+}
+
+.news h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.news ul li a {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+}
+#phy{
+    background-image: url(image/Untitled\ design.png);
+}
+#chem{
+    background-image: url(image/Untitled\ design.png);
+}
+#math{
+    background-image: url(image/Untitled\ design.png);
+}
+#batch{
+    background-image: url(image/Untitled\ design.png);
+}

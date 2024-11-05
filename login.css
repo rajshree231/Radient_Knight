@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+background-color: #A9C8DF;
+}
+
+.navbar {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.navbar li { 
+justify-content: center;
+font: bolder;
+flex: 1;
+align-self: end;
+}
+
+.navbar a {
+display: block;
+color:#52595E;
+text-align: center;
+size: 20px;
+padding: 10px;
+text-decoration: none;
+}
+
+.navbar a:hover {
+background-color:#D8E6F0;
+}
+section {
+padding: 50px;
+height: 60vh;
+justify-content: center;/* Full height sections */
+}
+
+section:nth-child(even) {
+background-color: #f4f4f4;
+}
+
+section:nth-child(odd) {
+background-color: #fff;
+}
+#logo{
+height: 80px;
+width: 200px;
+border-radius: 25% 10%;
+}
+#head{
+background-color:#CFE0ED;
+font-family:cursive;
+font-size:70px;
+color: #52595E;
+text-align: center;
+background-image:url(istockphoto-1334521310-1024x1024.jpg) ;
+}
+.navi{
+font-size: 20px;
+}
+/* <!:-ms-fullscree {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;}*/
+
+
+.search-container {
+display: flex;
+border: 1px solid #ccc;
+border-radius: 4px;
+overflow: hidden;
+}
+
+.search-input {
+border: none;
+padding: 10px;
+flex: 1; /* Takes up remaining space */
+font-size: 16px;
+}
+
+.search-button {
+padding: 10px 15px;
+background-color: #5cb85c;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.search-button:hover {
+background-color: #4cae4c;
+}
+/* login page*/
+.login-container {
+
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+width: 400px;
+display:grid;
+place-items:center;
+justify-content: center;
+
+
+}
+
+h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.input-group {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+/* width: 100%;*/
+padding: 10px;
+background-color: #5cb85c;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #4cae4c;
+}
+.message {
+text-align: center;
+margin-top: 15px;
+}
+
+.message a {
+color: #5cb85c;
+text-decoration: none;
+}
+#login{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
